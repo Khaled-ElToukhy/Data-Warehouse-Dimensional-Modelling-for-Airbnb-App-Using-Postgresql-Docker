@@ -1,6 +1,5 @@
 # Data-WareHouse-DimensionalModelling-for-Airbnb-App-Using-Postgresql-Docker
 
-# Data Warehouse Dimensional Modeling for Airbnb App
 
 This project aims to demonstrate how to perform dimensional modeling for a data warehouse using PostgreSQL and Docker. The project focuses on modeling data from an Airbnb-like application.
 
@@ -30,3 +29,9 @@ Before getting started, make sure you have the following installed on your syste
 
    ```bash
    git clone https://github.com/your-username/your-repo.git
+
+2. Navigate to the project directory
+```
+cd your-repo
+```
+
