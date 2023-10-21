@@ -29,7 +29,7 @@ Before getting started, make sure you have the following installed on your syste
 
 ```bash
 git clone https://github.com/your-username/your-repo.git
-
+```
 2. Navigate to the project directory
 ```
 cd your-repo
@@ -42,7 +42,7 @@ docker-compose build
 4. Start the Docker containner
 ```
 docker-compose up -d
-
+```
 
 This will start the PostgreSQL database container and create the necessary tables for the dimensional model.
 
