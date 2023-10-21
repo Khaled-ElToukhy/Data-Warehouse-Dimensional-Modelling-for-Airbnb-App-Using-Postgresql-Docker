@@ -38,13 +38,15 @@ cd your-repo
 ```
 docker-compose build
 ```
-4. Start the Docker containder:
+
+4. Start the Docker containner
 ```
 docker-compose up -d
-```
+
+
 This will start the PostgreSQL database container and create the necessary tables for the dimensional model.
 
-## usage
+## Usage
 To use the dimensional model, you can connect to the PostgreSQL database using your preferred database client and execute queries against the created tables. The dimensional model provides a structure that enables efficient reporting and analysis of the Airbnb-like app data.
 
 The project also includes sample queries that demonstrate how to retrieve insights from the dimensional model. You can find these queries in the queries directory.
