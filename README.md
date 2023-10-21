@@ -27,11 +27,24 @@ Before getting started, make sure you have the following installed on your syste
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
+```bash
+git clone https://github.com/your-username/your-repo.git
 
 2. Navigate to the project directory
 ```
 cd your-repo
 ```
+3. Build the Docker image
+```
+docker-compose build
+```
+4. Start the Docker containder:
+```
+docker-compose up -d
+```
+This will start the PostgreSQL database container and create the necessary tables for the dimensional model.
 
+## usage
+To use the dimensional model, you can connect to the PostgreSQL database using your preferred database client and execute queries against the created tables. The dimensional model provides a structure that enables efficient reporting and analysis of the Airbnb-like app data.
+
+The project also includes sample queries that demonstrate how to retrieve insights from the dimensional model. You can find these queries in the queries directory.
